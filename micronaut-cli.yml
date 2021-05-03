@@ -1,0 +1,6 @@
+applicationType: grpc
+defaultPackage: com.zonnesoft
+testFramework: junit
+sourceLanguage: kotlin
+buildTool: gradle_kotlin
+features: [annotation-api, app-name, github-workflow-google-cloud-run-graalvm, graalvm, gradle, grpc, http-client, jib, junit, knative, kotlin, kotlin-application, kotlin-extension-functions, kubernetes, logback, management, netty-server, reactor, readme, shade, tracing-jaeger, yaml]

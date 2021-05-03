@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.zonnesoft";
+option java_outer_classname = "Dockerchunk";
+option objc_class_prefix = "HLW";
+
+package com.zonnesoft;
+
+service DockerchunkService {
+  rpc send (DockerchunkRequest) returns (DockerchunkReply) {}
+}
+
+message DockerchunkRequest {
+  string name = 1;
+}
+
+message DockerchunkReply {
+  string message = 1;
+}
